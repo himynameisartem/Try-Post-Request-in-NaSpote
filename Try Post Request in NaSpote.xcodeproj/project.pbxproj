@@ -58,13 +58,29 @@
 			children = (
 				312AA2C027B153340016F4D4 /* AppDelegate.swift */,
 				312AA2C227B153340016F4D4 /* SceneDelegate.swift */,
-				312AA2C427B153340016F4D4 /* ViewController.swift */,
-				312AA2C627B153340016F4D4 /* Main.storyboard */,
+				312AA2D527B153490016F4D4 /* Controllers */,
+				312AA2D427B153400016F4D4 /* Views */,
 				312AA2C927B153350016F4D4 /* Assets.xcassets */,
-				312AA2CB27B153350016F4D4 /* LaunchScreen.storyboard */,
 				312AA2CE27B153350016F4D4 /* Info.plist */,
 			);
 			path = "Try Post Request in NaSpote";
+			sourceTree = "<group>";
+		};
+		312AA2D427B153400016F4D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				312AA2C627B153340016F4D4 /* Main.storyboard */,
+				312AA2CB27B153350016F4D4 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		312AA2D527B153490016F4D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				312AA2C427B153340016F4D4 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,7 +322,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +350,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
